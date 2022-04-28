@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.LyricsFragment"
+    android:background="@drawable/background">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="I wanna wake up every mornin', feelin' better
+'Cause I know you're sleeping by my side\nAnd every moment we're together
+I remember just to keep it all for you and I\n\n
+I see that body in the sunlight\n
+Feelin' the heat and it feels right\n
+I wanna do this for the rest of my life\n\nOh, I know, I know, you know the vibe\n
+I wanna stay with you every night\n
+You and me underneath the lights\n
+I'm always good when you're by my side\n
+I know, you know you're on my mind\n
+You really make me come alive\n
+I wanna be here for the rest of my life\n\n
+Looking for sun rays, needin' them good days\n
+Fly me away-away, you're my holiday\n
+Cool like the ocean, lost in emotion\n
+Fly me away-away, you're my holiday\n
+Whenever you're here it's a good time\n
+Strawberry shirts in the sunshine\n
+Ice-cold drinks 'til the moonlight\n
+You're my holiday\n
+Whenever you're here it's a good time\n
+Strawberry shirts in the sunshine\n
+Ice-cold drinks 'til the moonlight\n
+You're my holiday\n\n
+I wanna stay up 'til the mornin' with you talkin'\n
+Just to listen to the things you say\n
+And every time we're in the middle of the city\n
+I imagine us so far away\n\n
+I see that body in the sunlight (sunlight)
+Feelin' the heat and it feels right (feels right)
+I wanna do this for the rest of my life
+Oh, I know you know you're on my mind (yeah)
+You really make me come alive (yeah)
+I wanna be here for the rest of my life
+Looking for sun rays, needin' them good days
+Fly me away-away, you're my holiday (you're my holiday)
+Cool like the ocean, lost in emotion
+Fly me away-away, you're my holiday
+Whenever you're here it's a good time (good time)
+Strawberry shirts in the sunshine (sunshine)
+Ice-cold drinks 'til the moonlight (moonlight)
+You're my holiday (you're my holiday)
+Whenever you're here it's a good time (good time
+Strawberry shirts in the sunshine (sunshine)
+Ice-cold drinks 'til the moonlight (moonlight)\n
+You're my holiday\n\n
+Ooh, ooh\n
+Ooh, you're my holiday\n
+Ooh, ooh\n
+Ooh, you're my holiday\n"
+        android:textSize="18sp"
+        android:layout_margin="12dp"
+        android:textAlignment="textStart"
+        android:textColor="#999999"/>
+
+</ScrollView>
