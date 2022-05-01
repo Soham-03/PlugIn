@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/viewPagerMainActivity"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/navigationBarMainActivity"/>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/navigationBarMainActivity"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        app:layout_constraintTop_toBottomOf="@+id/viewPagerMainActivity"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:menu="@menu/menu"
+        android:background="@drawable/background"
+        app:itemRippleColor="@color/transparent"/>
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/layoutBottomPlayAndPause"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toTopOf="@+id/navigationBarMainActivity"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_margin="8dp"
+        app:cardCornerRadius="8dp"
+        app:cardBackgroundColor="#181A1E"
+        app:cardElevation="8dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/cardViewSongImg"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                app:cardCornerRadius="64dp"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                android:layout_margin="16dp">
+
+                <ImageView
+                    android:id="@+id/imgSongMainAct"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/temp"/>
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <TextView
+                android:id="@+id/txtSongNameMainAct"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Song Name"
+                android:textColor="@color/greyText"
+                android:fontFamily="@font/bitsumishi"
+                android:textSize="16sp"
+                app:layout_constraintStart_toEndOf="@+id/cardViewSongImg"
+                app:layout_constraintEnd_toStartOf="@+id/btnPreviousSongMainAct"
+                android:layout_margin="12sp"
+                app:layout_constraintTop_toTopOf="@+id/cardViewSongImg"
+                app:layout_constraintBottom_toBottomOf="@+id/cardViewSongImg"
+                android:textAlignment="textStart"/>
+
+            <ImageView
+                android:id="@+id/btnPreviousSongMainAct"
+                android:layout_width="52dp"
+                android:layout_height="52dp"
+                android:src="@drawable/btn_previous_song"
+                android:layout_marginStart="10dp"
+                app:layout_constraintEnd_toStartOf="@+id/btnPlayOrPauseMainAct"
+                app:layout_constraintTop_toTopOf="@+id/cardViewSongImg"
+                app:layout_constraintBottom_toBottomOf="@+id/cardViewSongImg" />
+
+            <ImageView
+                android:id="@+id/btnPlayOrPauseMainAct"
+                android:layout_width="72dp"
+                android:layout_height="72dp"
+                android:src="@drawable/btn_play"
+                app:layout_constraintEnd_toStartOf="@+id/btnNextSongMainActivity"
+                app:layout_constraintTop_toTopOf="@+id/cardViewSongImg"
+                app:layout_constraintBottom_toBottomOf="@+id/cardViewSongImg" />
+
+            <ImageView
+                android:id="@+id/btnNextSongMainActivity"
+                android:layout_width="52dp"
+                android:layout_height="52dp"
+                android:src="@drawable/btn_previous_song"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="10dp"
+                app:layout_constraintTop_toTopOf="@+id/cardViewSongImg"
+                app:layout_constraintBottom_toBottomOf="@+id/cardViewSongImg" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

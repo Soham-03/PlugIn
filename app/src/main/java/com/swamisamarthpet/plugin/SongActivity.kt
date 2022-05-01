@@ -5,18 +5,17 @@ import android.os.Bundle
 import android.view.View
 import androidx.constraintlayout.widget.ConstraintLayout
 import androidx.fragment.app.Fragment
-import androidx.viewpager2.adapter.FragmentStateAdapter
 import com.google.android.material.bottomsheet.BottomSheetBehavior
 import com.google.android.material.tabs.TabLayout
 import com.google.android.material.tabs.TabLayoutMediator
-import com.swamisamarthpet.plugin.adapter.BottomSheetViewpagerAdapter
+import com.swamisamarthpet.plugin.adapter.ViewpagerAdapter
 import com.swamisamarthpet.plugin.databinding.ActivitySongBinding
 import com.swamisamarthpet.plugin.fragment.LyricsFragment
 import com.swamisamarthpet.plugin.fragment.UpNextFragment
 
 class SongActivity : AppCompatActivity() {
     private lateinit var binding:ActivitySongBinding
-    lateinit var adapter: BottomSheetViewpagerAdapter
+    lateinit var adapter: ViewpagerAdapter
     lateinit var behavior: BottomSheetBehavior<ConstraintLayout>
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -27,7 +26,7 @@ class SongActivity : AppCompatActivity() {
             LyricsFragment(),
             UpNextFragment()
         )
-        adapter = BottomSheetViewpagerAdapter(fragmentList,this.supportFragmentManager,this.lifecycle)
+        adapter = ViewpagerAdapter(fragmentList,this.supportFragmentManager,this.lifecycle)
         binding = ActivitySongBinding.inflate(layoutInflater)
 
         binding.apply {

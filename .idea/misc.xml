@@ -6,13 +6,18 @@
         <entry key="..\:/Users/soham parab/AndroidStudioProjects/PlugIn/app/src/main/res/drawable/ic_arrow_down.xml" value="0.153" />
         <entry key="..\:/Users/soham parab/AndroidStudioProjects/PlugIn/app/src/main/res/drawable/ic_back.xml" value="0.23692307692307693" />
         <entry key="..\:/Users/soham parab/AndroidStudioProjects/PlugIn/app/src/main/res/drawable/ic_baseline_keyboard_arrow_up_24.xml" value="0.153" />
-        <entry key="..\:/Users/soham parab/AndroidStudioProjects/PlugIn/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/soham parab/AndroidStudioProjects/PlugIn/app/src/main/res/layout/activity_main.xml" value="0.14" />
         <entry key="..\:/Users/soham parab/AndroidStudioProjects/PlugIn/app/src/main/res/layout/activity_song.xml" value="0.22447916666666667" />
         <entry key="..\:/Users/soham parab/AndroidStudioProjects/PlugIn/app/src/main/res/layout/bottom_sheet_lyrics.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/soham parab/AndroidStudioProjects/PlugIn/app/src/main/res/layout/fragment_home.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/soham parab/AndroidStudioProjects/PlugIn/app/src/main/res/layout/fragment_library.xml" value="0.22447916666666667" />
         <entry key="..\:/Users/soham parab/AndroidStudioProjects/PlugIn/app/src/main/res/layout/fragment_lyrics.xml" value="0.25" />
+        <entry key="..\:/Users/soham parab/AndroidStudioProjects/PlugIn/app/src/main/res/layout/fragment_search.xml" value="0.22447916666666667" />
         <entry key="..\:/Users/soham parab/AndroidStudioProjects/PlugIn/app/src/main/res/layout/fragment_up_next.xml" value="0.22447916666666667" />
         <entry key="..\:/Users/soham parab/AndroidStudioProjects/PlugIn/app/src/main/res/layout/fragment_up_next2.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/soham parab/AndroidStudioProjects/PlugIn/app/src/main/res/layout/horizontal_single_row.xml" value="0.67" />
         <entry key="..\:/Users/soham parab/AndroidStudioProjects/PlugIn/app/src/main/res/layout/song_list_single_row.xml" value="0.22" />
+        <entry key="..\:/Users/soham parab/AndroidStudioProjects/PlugIn/app/src/main/res/menu/menu.xml" value="0.22447916666666667" />
       </map>
     </option>
   </component>

@@ -31,7 +31,6 @@ class UpNextFragment : Fragment() {
             recyclerViewUpNextFrag.adapter = adapter
         }
 
-
         return binding.root
     }
 
